@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  place-items: baseline;
+  width: 270px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  height: 100px;
+}
+
+.amountContainer {
+  width: 200px;
+}
+
+ input {
+  height: 50px;
+  font-size: 16px;
+  border: none;
+  background: #F9F9F9;
+  text-align: center;
+}
+
+ select {
+  height: 50px;
+  margin: 20px;
+  padding: 5px;
+  border: none;
+}
